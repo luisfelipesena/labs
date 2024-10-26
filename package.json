@@ -1,0 +1,19 @@
+{
+"name": "labs",
+"module": "index.ts",
+"type": "module",
+"scripts": {
+  "live": "bun run live-server --mount=/Assets:./Assets"
+},
+"devDependencies": {
+  "@types/bun": "latest",
+  "live-server": "latest"
+},
+"peerDependencies": {
+  "typescript": "^5.0.0"
+},
+"dependencies": {
+  "@types/three": "^0.169.0",
+  "three": "^0.169.0"
+}
+}
